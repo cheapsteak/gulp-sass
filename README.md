@@ -52,7 +52,7 @@ gulp.task('sass:watch', function () {
 
 ## Options
 
-Pass in options just like you would for [`node-sass`](https://github.com/sass/node-sass#options); they will be passed along just as if you were using `node-sass`.
+Pass in options just like you would for [`node-sass`](https://github.com/sass/node-sass#options); they will be passed along just as if you were using `node-sass`. Except for `data`, the `data` option is stripped from the options passed to node-sass.
 
 For example:
 
